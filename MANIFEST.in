@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include call_plan *.css
+recursive-include call_plan *.csv
+recursive-include call_plan *.html
+recursive-include call_plan *.ico
+recursive-include call_plan *.js
+recursive-include call_plan *.json
+recursive-include call_plan *.md
+recursive-include call_plan *.png
+recursive-include call_plan *.py
+recursive-include call_plan *.svg
+recursive-include call_plan *.txt
+recursive-exclude call_plan *.pyc

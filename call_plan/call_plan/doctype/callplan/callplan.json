@@ -1,0 +1,144 @@
+{
+ "creation": "2019-09-11 20:45:54.599129",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_person",
+  "customer",
+  "section_break",
+  "senin",
+  "selasa",
+  "rabu",
+  "kamis",
+  "jumat",
+  "sabtu",
+  "minggu",
+  "column_break_16",
+  "pattern",
+  "week_awal"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_person",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales Person",
+   "options": "Sales Person",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "senin",
+   "fieldtype": "Check",
+   "label": "Senin"
+  },
+  {
+   "default": "0",
+   "fieldname": "selasa",
+   "fieldtype": "Check",
+   "label": "Selasa"
+  },
+  {
+   "default": "0",
+   "fieldname": "rabu",
+   "fieldtype": "Check",
+   "label": "Rabu"
+  },
+  {
+   "default": "0",
+   "fieldname": "kamis",
+   "fieldtype": "Check",
+   "label": "Kamis"
+  },
+  {
+   "default": "0",
+   "fieldname": "jumat",
+   "fieldtype": "Check",
+   "label": "Jumat"
+  },
+  {
+   "default": "0",
+   "fieldname": "sabtu",
+   "fieldtype": "Check",
+   "label": "Sabtu"
+  },
+  {
+   "default": "0",
+   "fieldname": "minggu",
+   "fieldtype": "Check",
+   "label": "Minggu"
+  },
+  {
+   "fieldname": "pattern",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pattern",
+   "reqd": 1
+  },
+  {
+   "fieldname": "week_awal",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Week Awal",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "collapsible": 1,
+   "fieldname": "section_break",
+   "fieldtype": "Section Break",
+   "label": "Coverage"
+  },
+  {
+   "bold": 1,
+   "collapsible": 1,
+   "fieldname": "column_break_16",
+   "fieldtype": "Section Break",
+   "label": "Visit Pattern"
+  }
+ ],
+ "modified": "2019-09-12 09:27:58.044501",
+ "modified_by": "Administrator",
+ "module": "Call Plan",
+ "name": "Callplan",
+ "owner": "handoko.apps@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
